@@ -4,14 +4,20 @@
     margin:0;
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
+    
 }
+
+body {
+    background-color: #000000;
+}
+
 html {
-    background-color: rgb(255, 255, 255);
+    background-color:#000000(243, 241, 241);
 }
 #wrapper {
     width: 100%;
     height: 100vh;
-    background-color: rgb(255, 255, 255);;
+    background-color: rgb(0, 0, 0);;
 }
 #header {
     width: 100%;
@@ -20,7 +26,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;    
-    background-color: #1d1a1a;
+    background-color: #201c1c;
 }
 
 
@@ -53,7 +59,7 @@ html {
 }
 
 #menu .item a:hover {
-    color: goldenrod ;
+    color: rgb(232, 188, 12) ;
 }
 
 #actions {
@@ -92,58 +98,68 @@ html {
 #banner {
     width: 100%;
     background-image:url('../image/about_us.png');
-    background-size: cover;
-    height: 463px;
+    height: 563px;
     /* margin-top:40px; */
     display: flex;
     padding:0px 133px;
     position:relative;
-    background-color: #1d1a1a;
+    background-color: #000000;
 }
 
 #banner h1 {
-    position: absolute;
+    position: absolute; top: 20px; left: 10px;
     bottom: 0px;
-    color: rgb(255, 255, 255);;
+    color: rgb(255, 251, 251);;
     font-size: 100px;
     font-style: normal;
     margin: 0px 0px 30px;
+
 }
 
 .info .ATG-header h2{
-    color: #43647b;
-    font-size: 45px;
+    color: #ede50d;
+    font-size: 35px;
     /* text-align:justify; */
     line-height: 52px;
     margin: 0px 0px 20px;
-    width: 1127px;
-    height: 208px;
+    width: 1527px;
+    height: 98px;
+    background-color: #000000;
 }
 
 .info .ATG-info h2{
-    color: #43647b;
-    font-size: 27px;
+    color: #e6de0d;
+    font-size: 35px;
     line-height: 33.75px;
     margin: 0px 0px 20px;
-    width: 1127px;
+    width: 1527px;
     height: 34px;
+    background-color: #000000;
 
 }
 .info .ATG-info p {
-    color:#43647b;
-    width: 1127px;
-    height: 72px;
+    color:#fef601;
+    font-size: 19px;
+    line-height: 24px;
+    width: 1227px;
+    height: 82px;
+    background-color: #000000;
+    margin: 0px 0px 20px;
 }
 
 .info {
     padding: 0;
     margin: 0;
+    background-color: #000000;
 }
 
 .info .bidder img {
+   justify-content: center;
     width: 1127px;
     height: 634px ;
-    padding: 5px;
+    padding: 55px;
+    background-color: #000000;
+    margin-left: 350px;
 }
 
 
@@ -163,8 +179,8 @@ html {
     width: 841px;
     height: 374px;    
     align-items: center;
-    background-color: #43647b;
-    color: #fff;
+    background-color: #000000;
+    color:#e6de0d;
     font-size: 18px;
     justify-content: flex-start;
     line-height: 24px;
@@ -193,3 +209,4 @@ html {
     margin: 0px 0px 0px 70px;
     text-align: left;
 }
+

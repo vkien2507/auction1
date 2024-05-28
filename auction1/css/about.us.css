@@ -117,7 +117,7 @@ html {
 }
 
 .info .ATG-header h2{
-    color: #ede50d;
+    color: #DAA520;
     font-size: 35px;
     /* text-align:justify; */
     line-height: 52px;
@@ -128,7 +128,7 @@ html {
 }
 
 .info .ATG-info h2{
-    color: #e6de0d;
+    color: #DAA520;
     font-size: 35px;
     line-height: 33.75px;
     margin: 0px 0px 20px;
@@ -138,7 +138,7 @@ html {
 
 }
 .info .ATG-info p {
-    color:#fef601;
+    color:#DAA520;
     font-size: 19px;
     line-height: 24px;
     width: 1227px;
@@ -180,7 +180,7 @@ html {
     height: 374px;    
     align-items: center;
     background-color: #000000;
-    color:#e6de0d;
+    color:#DAA520;
     font-size: 18px;
     justify-content: flex-start;
     line-height: 24px;
@@ -209,4 +209,3 @@ html {
     margin: 0px 0px 0px 70px;
     text-align: left;
 }
-
